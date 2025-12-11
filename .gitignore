@@ -1,0 +1,5 @@
+*.class
+projects.dat
+.DS_Store
+.vscode/
+.idea/
