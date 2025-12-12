@@ -13,7 +13,7 @@ public class FileManager {
         this.fileName = fileName;
     }
 
-    @SuppressWarnings("unchecked")
+
     public List<Project> read() throws IOException, ClassNotFoundException {
         File f = new File(fileName);
         if (!f.exists()) {
